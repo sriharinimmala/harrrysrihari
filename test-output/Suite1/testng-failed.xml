@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="Firstsuite(failed)">
+    <classes>
+      <class name="comhrmstestscrpts.TC003">
+        <methods>
+          <include name="tc003"/>
+        </methods>
+      </class> <!-- comhrmstestscrpts.TC003 -->
+      <class name="comhrmstestscrpts.TC004">
+        <methods>
+          <include name="tc004"/>
+        </methods>
+      </class> <!-- comhrmstestscrpts.TC004 -->
+      <class name="comhrmstestscrpts.TC001">
+        <methods>
+          <include name="tc001"/>
+        </methods>
+      </class> <!-- comhrmstestscrpts.TC001 -->
+    </classes>
+  </test> <!-- Firstsuite(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
